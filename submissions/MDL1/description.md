@@ -21,7 +21,7 @@ Contact: mis (AT) idmt.fraunhofer.de <!-- one corresponding mail address -->
 Task: Singing voice separation.
 
 We used the Masker and Denoiser (MaD) architecture presented in the references below. Our method operates on single-channel
-mixture magnitude spectrograms and yields single-channel estimates for the singing voice. The accompaniment source is estimated by time-domain subtraction. To avoid the computational complexities of the recurrent inference, we introduced to the overall cost a unit matrix norm penalty for the latent representation of the target source time-frequency mask (denoted as "H_j_dec" in our paper). In MDL2 we used a scalar of 2e-6 and for MDL1 a scalar of 2e-7. These scalars are applied to the aforementioned matrix norm. For training we only used the training subset of MUSDB18, without any augmentation, normalisation or dropout. At test time, we applied our method to each available mixture channel independently.
+mixture magnitude spectrograms and yields single-channel estimates for the singing voice. The accompaniment source is estimated by time-domain subtraction. To avoid the computational complexities of the recurrent inference, we introduced to the overall cost a unit matrix norm penalty for the latent representation of the target source time-frequency mask (denoted as "H_j_dec" in our paper). In MDL1 a scalar of 2e-7 is applied to the aforementioned matrix norm. For training we only used the training subset of MUSDB18, without any augmentation, normalisation or dropout. At test time, we applied our method to each available mixture channel independently.
 
 
 More details can be found here:
