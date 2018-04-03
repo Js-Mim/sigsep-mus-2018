@@ -1,11 +1,11 @@
  # MDLT <!-- Your submission short name in <=4 characters -->
-Stylianos Ioannis Mimilakis and Konstantinos Drossos <!-- Authors  -->
+Stylianos Ioannis Mimilakis¹ and Konstantinos Drossos² <!-- Authors  -->
 
-Fraunhofer-IDMT, Ilmenau, Germany
+¹Fraunhofer-IDMT, Ilmenau, Germany
 
-Tampere University of Technology, Tampere, Finland <!-- Affiliations -->
+²Tampere University of Technology, Tampere, Finland <!-- Affiliations -->
 
-Contact: mis (AT) idmt.fraunhofer.de <!-- one corresponding mail address -->
+Contact: mis [at] idmt.fraunhofer.de <!-- one corresponding mail address -->
 
 ## Additional Info
 
@@ -28,6 +28,6 @@ https://js-mim.github.io/mss_pytorch/
 
 ## References
 
-- S.I. Mimilakis, K. Drossos, T. Virtanen, and G. Schuller, "A recurrent encoder-decoder approach with skip-filtering connections for monaural singing voice separation," in Proc. IEEE In- ternational Workshop on Machine Learning for Signal Processing (MLSP), September 2017.
+1 S.I. Mimilakis, K. Drossos, T. Virtanen, and G. Schuller: A recurrent encoder-decoder approach with skip-filtering connections for monaural singing voice separation, in Proc. IEEE International Workshop on Machine Learning for Signal Processing (MLSP), September 2017.
 
-- S.I. Mimilakis, K. Drossos, J.F. Santos, G. Schuller, T. Virtanen, and Y. Bengio, "Monaural singing voice separation with skip- filtering connections and recurrent inference of time-frequency mask," in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), April 2018.
+2 S.I. Mimilakis, K. Drossos, J.F. Santos, G. Schuller, T. Virtanen, and Y. Bengio: Monaural singing voice separation with skip-filtering connections and recurrent inference of time-frequency mask, in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), April 2018.
