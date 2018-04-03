@@ -1,9 +1,9 @@
  # MDLT <!-- Your submission short name in <=4 characters -->
-Stylianos Ioannis Mimilakis¹ and Konstantinos Drossos² <!-- Authors  -->
+Stylianos Ioannis Mimilakis and Konstantinos Drossos <!-- Authors  -->
 
-¹Fraunhofer-IDMT, Ilmenau, Germany
+Fraunhofer-IDMT, Ilmenau, Germany
 
-²Tampere University of Technology, Tampere, Finland <!-- Affiliations -->
+Tampere University of Technology, Tampere, Finland <!-- Affiliations -->
 
 Contact: mis (AT) idmt.fraunhofer.de <!-- one corresponding mail address -->
 
