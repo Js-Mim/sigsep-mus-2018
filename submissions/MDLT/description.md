@@ -28,6 +28,6 @@ https://js-mim.github.io/mss_pytorch/
 
 ## References
 
-- S.I. Mimilakis, K. Drossos, T. Virtanen, and G. Schuller, "A recurrent encoder-decoder approach with skip-filtering connections for monaural singing voice separation,"ù in Proc. IEEE In- ternational Workshop on Machine Learning for Signal Processing (MLSP), September 2017.
+- S.I. Mimilakis, K. Drossos, T. Virtanen, and G. Schuller, "A recurrent encoder-decoder approach with skip-filtering connections for monaural singing voice separation," in Proc. IEEE In- ternational Workshop on Machine Learning for Signal Processing (MLSP), September 2017.
 
-- S.I. Mimilakis, K. Drossos, J.F. Santos, G. Schuller, T. Virtanen, and Y. Bengio, "Monaural singing voice separation with skip- filtering connections and recurrent inference of time-frequency mask,"ù in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), April 2018.
+- S.I. Mimilakis, K. Drossos, J.F. Santos, G. Schuller, T. Virtanen, and Y. Bengio, "Monaural singing voice separation with skip- filtering connections and recurrent inference of time-frequency mask," in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), April 2018.
