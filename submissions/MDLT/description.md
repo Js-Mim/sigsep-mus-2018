@@ -1,4 +1,4 @@
- # MDL1 <!-- Your submission short name in <=4 characters -->
+ # MDLT <!-- Your submission short name in <=4 characters -->
 Stylianos Ioannis Mimilakis¹ and Konstantinos Drossos² <!-- Authors  -->
 
 ¹Fraunhofer-IDMT, Ilmenau, Germany
@@ -21,8 +21,7 @@ Contact: mis [at] idmt.fraunhofer.de <!-- one corresponding mail address -->
 Task: Singing voice separation.
 
 We used the Masker and Denoiser (MaD) architecture presented in the references below. Our method operates on single-channel
-mixture magnitude spectrograms and yields single-channel estimates for the singing voice. The accompaniment source is estimated by time-domain subtraction. To avoid the computational complexities of the recurrent inference, we introduced to the overall cost a unit matrix norm penalty for the latent representation of the target source time-frequency mask (denoted as "H_j_dec" in our paper). In MDL1 a scalar of 2e-7 is applied to the aforementioned matrix norm. For training we only used the training subset of MUSDB18, without any augmentation, normalisation or dropout. At test time, we applied our method to each available mixture channel independently.
-
+mixture magnitude spectrograms and yields single-channel estimates for the singing voice. The main difference between the MDL1 is that a thresholding algorithm is applied to the latent space that controls the time-frequency mask generation ("denoted as "H-j-dec" in our paper"). Values less or equal than $0.2$ in the absolute latent space are brought to 0. This is applied only during the testing time. The accompaniment source is estimated by time-domain subtraction. To avoid the computational complexities of the recurrent inference, we introduced to the overall cost a unit matrix norm penalty for the latent representation of the target source time-frequency mask (denoted as "H-j-dec" in our paper). In MDLT a scalar of $2e-7$ is applied to the aforementioned matrix norm. For training we only used the training subset of MUSDB18, without any augmentation, normalisation or dropout. At test time, we applied our method to each available mixture channel independently.
 
 More details can be found here:
 https://js-mim.github.io/mss_pytorch/
